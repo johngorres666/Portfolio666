@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: lightblue;
+    text-shadow: 6px 5px 12px #00708c;
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+}
+
+body{
+    margin: 5px;
+    background-color: #001c2b;
+   
+}
+.Portpolio ul{
+   
+    font-style: italic;
+    font-size: larger;
+    list-style-type: none;
+    background-color: #044061;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden; 
+
+}
+.Portpolio a{
+    color: #65d0eb;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+.Portpolio a:hover{
+    background-color:#417582;
+    
+}
+.Portpolio li{
+    float: left;
+    
+}
+@keyframes slideInLeft{
+    from {
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.container {
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    animation-name: slideInLeft;
+    animation-duration: 1.5s;
+
+}
+.container img {
+    width: 10%;
+    height: 85%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid lightcyan(255, 255, 255 ,0.64);
+    transition: all ease-in-out 0.8s;
+}
+.container img:hover { 
+    width: 25%;
+}
+h3{
+   
+
+    padding-left: 350px;
+    align-items: center;
+    color: #fafeff;
+    font-family: sans-serif;
+    animation-name: slideInLeft;
+    animation-duration: 3s;
+    padding-right: 850px;
+    margin-left: 100px;
+    margin-top: 0px;
+}

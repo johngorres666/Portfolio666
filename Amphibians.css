@@ -1,0 +1,47 @@
+body{ background: linear-gradient(#fff269, #fce158);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+img{
+    position: fixed;
+    top: 55%;
+    left: 20%;
+    height: 300px;
+    width: 1000px;
+}
+button{
+    font-size: 25px;
+    font-style: italic;
+    background-color: #d6c804;
+    color: #15013d;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: #8c7e00;
+}
+.navbar ul{
+    border-radius: 30px;
+    font-style: italic;
+    font-size: larger;
+    list-style-type: none;
+    background-color: #fade41;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+.navbar a:hover{
+    background-color:#29ff9b;
+}
+.navbar li{
+    float: left;
+}

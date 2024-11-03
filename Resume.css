@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: lightblue;
+    text-shadow: 6px 5px 12px #00708c;
+}
+
+body{
+    margin: 5px;
+    background-color: #001c2b;
+   
+}
+.Portpolio ul{
+   
+    font-style: italic;
+    font-size: larger;
+    list-style-type: none;
+    background-color: #044061;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden; 
+
+}
+.Portpolio a{
+    color: #65d0eb;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+.Portpolio a:hover{
+    background-color:#417582;
+    
+}
+.Portpolio li{
+    float: left;
+    
+}
+img{
+    position: relative;
+    margin: 30px;
+    height: 280px;
+    width: 210px;
+    border-radius: 30px;
+}
+#name123{
+    position: relative;
+    color: #ebebf0;
+    margin-left: 35px;
+    margin-bottom: 60px;
+}
